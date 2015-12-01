@@ -13,5 +13,7 @@ package ChatSouris.Modele;
  * @author w.monnet
  */
 public class Jeux {
-    
+    public void gestionSon(){
+        
+    }
 }

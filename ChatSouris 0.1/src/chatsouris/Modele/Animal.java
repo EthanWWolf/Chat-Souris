@@ -10,5 +10,12 @@ package ChatSouris.Modele;
  * @author w.monnet
  */
 public class Animal extends Niveau{
+
+    public Animal(int nbFD, int nbFG, int nbFB, int nbFH) {
+        super(nbFD, nbFG, nbFB, nbFH);
+    }
     
+    public void interraction(){
+        
+    }
 }

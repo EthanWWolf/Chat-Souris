@@ -10,5 +10,13 @@ package ChatSouris.Modele;
  * @author w.monnet
  */
 public class Cases extends Niveau{
+
+    private final int [][] level;
+    
+    public Cases(int nbFD, int nbFG, int nbFB, int nbFH, int n, int p) {
+        super(nbFD, nbFG, nbFB, nbFH);
+        level = new int[n][p];
+    }
+
     
 }

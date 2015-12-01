@@ -10,5 +10,12 @@ package ChatSouris.Modele;
  * @author w.monnet
  */
 public class SuperCat extends Animal{
+
+    public SuperCat(int nbFD, int nbFG, int nbFB, int nbFH) {
+        super(nbFD, nbFG, nbFB, nbFH);
+    }
     
+    public void deplacement(){
+        
+    }
 }

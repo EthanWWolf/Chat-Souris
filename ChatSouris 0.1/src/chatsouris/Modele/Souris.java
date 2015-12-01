@@ -10,5 +10,13 @@ package ChatSouris.Modele;
  * @author w.monnet
  */
 public class Souris extends Animal{
+
+    public Souris(int nbFD, int nbFG, int nbFB, int nbFH) {
+        super(nbFD, nbFG, nbFB, nbFH);
+    }
+    
+    public void deplacement(){
+        
+    }
     
 }
